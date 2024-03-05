@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>CALCULATOR</h1>
+    <div class="outline">
+        <form action="" name="clc">
+            <input type="text" name="display" style="width: 350px; height: 40px; margin-bottom: 10px;color: blanchedalmond;background-color: rgb(10, 4, 4); border-radius: 10px;"><br>
+            <input type="button" name="btn" value="7" >
+            <input type="button" name="btn" value="8" >
+            <input type="button" name="btn" value="9" >
+            <input type="button" name="btn" value="&#247;" style="background-color: chocolate;"><br>
+            <input type="button" name="btn" value="4" >
+            <input type="button" name="btn" value="5" >
+            <input type="button" name="btn" value="6" >
+            <input type="button" name="btn" value="-" style="background-color: brown;"><br>
+            <input type="button" name="btn" value="1" >
+            <input type="button" name="btn" value="2" >
+            <input type="button" name="btn" value="3" >
+            <input type="button" name="btn" value="*" style="background-color: crimson;"><br>
+            <input type="button" name="btn" value="0" >
+            <input type="button" name="btn" value="c">
+            <input type="button" name="btn" value="=">
+            <input type="button" name="btn" value="+" onclick="clc.display.value += '+'" style="background-color: orangered;">
+        </form>
+    </div>
+</html>
